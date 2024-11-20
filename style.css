@@ -1,0 +1,139 @@
+.structural {
+    border: 10px snow black;
+    border-radius: 10px;
+    margin: 0.75rem;
+    padding: 0.75rem;
+    
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline;
+    padding: 15px;
+  }
+  
+  nav a {
+    border: 5px silver rgb(30, 30, 30);
+    border-radius: 10px;
+    color: rgb(133, 105, 244);
+    background-color: rgb(46, 68, 65);
+  }
+  
+  a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    color: black;
+    font-weight: lighter;
+  }
+  
+  a:hover {
+    color: rgb(43, 127, 167);
+    border: 1px lighter rgb(43, 127, 167);
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .hero_section {
+    height: 75vh;
+  }
+  .left_aside {
+    float: left;
+    width: 10%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .hero_section a {
+    text-decoration: none;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0%;
+  }
+  
+  li {
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+  }
+  main {
+    float: left;
+    width: 75%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  .right_aside {
+    float: left;
+    width: 10%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  footer {
+    clear: both;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: medium;
+  }
+  
+  
+  form {
+    border: 10px line rgb(195, 230, 107);
+    padding: 10px;
+    background-color: rgb(132, 247, 204);
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"],
+  select,
+  option {
+    width: 50%;
+    display: block;
+    height: 1em;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    height: 1em;
+    width: 1em;
+  }
+  
+  select,
+  option,
+  label,
+  legend,
+  input[type="submit"] {
+    font-size: 1rem;
+    font-weight: lighter;
+    font-variant: normal;
+  }
+  
+  textarea {
+      width: 50%;
+      display: block;
+    }
+    
+    fieldset {
+      border: none;
+    }
+    
